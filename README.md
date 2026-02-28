@@ -98,20 +98,19 @@ A comprehensive Flask-based web application for managing employee attendance, ex
    python create_admin.py
    ```
    This creates an admin user with:
-   - **Email**: admin@arizona.com
-   - **Password**: admin123
+   - Admin
 
 7. **Run the application**
    ```bash
    python app.py
    ```
 
-   The application will be available at `http://localhost:5000`
+   The application will be available at 
 
 ## Initial Admin Setup
 
 ### Admin User Workflow
-1. **Login as Admin**: Use admin@arizona.com / admin123
+1. **Login as Admin**: 
 2. **Create HR Accounts**: From Admin Dashboard → Employees → Add Employee (set role as 'hr')
 3. **Create Employee Accounts**: From Admin Dashboard → Employees → Add Employee (set role as 'employee')
 4. **Manage System**: Admin can manage all HR and Employee accounts
