@@ -63,11 +63,7 @@ A comprehensive Flask-based web application for managing employee attendance, ex
    pip install -r requirements.txt
    ```
 
-4. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   SECRET_KEY=your-secret-key-here
-   DATABASE_URL=mysql+mysqlconnector://user:password@localhost/arizona_automation
+
 
    # Email settings
    MAIL_SERVER=smtp.gmail.com
@@ -81,17 +77,7 @@ A comprehensive Flask-based web application for managing employee attendance, ex
    TWILIO_AUTH_TOKEN=your-twilio-token
    TWILIO_PHONE_NUMBER=your-twilio-number
 
-   # Celery settings (for background tasks)
-   CELERY_BROKER_URL=redis://localhost:6379/0
-   CELERY_RESULT_BACKEND=redis://localhost:6379/0
-   ```
-
-5. **Set up MySQL database**
-   ```bash
-   mysql -u root -p
-   CREATE DATABASE arizona_automation;
-   source database_schema.sql;
-   ```
+   
 
 6. **Create Initial Admin User**
    ```bash
@@ -165,11 +151,7 @@ Example:
    sudo apt install python3 python3-pip nginx mysql-server redis-server
    ```
 
-2. **Configure MySQL**
-   ```bash
-   sudo mysql_secure_installation
-   # Create database and user
-   ```
+   
 
 3. **Set up application**
    ```bash
