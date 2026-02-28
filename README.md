@@ -288,7 +288,7 @@ This project is proprietary software for Arizona Automation Technology.
 
 ## Support
 
-For support, contact the development team at admin@arizona-automation.com
+For support, contact the development team at riturajsingh65907@gmail.com
 
 ## Next Steps Checklist
 
